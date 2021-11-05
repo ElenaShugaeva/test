@@ -1,4 +1,4 @@
-CREATE [ OR ALTER ] FUNCTION [ schema_name. ] function_name( [ { @parameter_name [ AS ][ type_schema_name. ] parameter_data_type
+CREATE OR ALTER  FUNCTION schema_name incr_load_table_name ( [ { @parameter_name [ AS ][ type_schema_name. ] parameter_data_type
 [ = default ] [ READONLY ] }
 [ ,...n ]
 ]
@@ -10,4 +10,3 @@ BEGIN
 function_body
 RETURN scalar_expression
 END[ ; ]
-
